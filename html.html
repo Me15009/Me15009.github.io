@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script src="https://randojs.com/1.0.0.js"></script>
+        <script>
+            function showRandomNumber(){
+                document.getElementById("myNumber").innerHTML = rando(0, 5000);
+            }
+        </script>
+        <style>
+            #myNumber{
+                font-size:100px;
+                text-align:center;
+                margin:50px auto;
+                font-family:Arial, sans-serif;
+            }
+        </style>
+        <link rel="stylesheet" href="More styles.css">
+    </head>
+    <body onload="showRandomNumber();">
+        <div id="myNumber"></div>
+        <a href="html.html">Click here for another number</a>
+    </body>
+</html>
