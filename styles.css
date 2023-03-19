@@ -2,3 +2,14 @@ body {color:lime; font-size:30px;}
 a:hover { color: gold;}
 
 img:hover {border: solid pink 2px;}
+
+
+div {
+    border: 1px red solid;
+    text-align: center;
+    height: 100px;
+}
+
+div:hover {
+    background-color: black;
+}
