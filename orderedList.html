@@ -2,9 +2,60 @@
 <html>
 <head>
 <title>orderedList</title>
+<style>
+.active{
+    background-color: blueviolet;
+}
+.active:hover{
+    background-color: purple;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    background-color: darkgray;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+.float{
+    float: left;
+}
+li a:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
 </head>
 <body style="background-color: lime;">
-<h1 style="font-size: 100px; font-style: italic;">My six subjects</h1>
+    <ul>
+        <li class="float"><a href="newthing.html">Home</a></li>
+        <li class="float"><a href="gfhjdjjhskjhflgkjshfdlg.html">Better than home</a></li>
+        <li class="float"><a href="orderedList.html" class="active">Ordered list</a></li>
+        <li class="float"><a href="unorderedList.html">Unordered List</a></li>
+    </ul>
+    <h1 style="font-size: 100px; font-style: italic;">My six subjects</h1>
 <br>
 <ol>
     <li style="color: yellow;">Occupations</li>

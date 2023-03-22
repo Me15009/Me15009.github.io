@@ -9,10 +9,55 @@
     66%{background-color: goldenrod;}
     100%{background-color: crimson;}
 }
+.active{
+    background-color: blueviolet;
+}
+.active:hover{
+    background-color: purple;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    background-color: darkgray;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+.float{
+    float: left;
+}
+li a:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
 </style>
 </head>
 <body style="animation-name: colorchange;animation-duration: 1s; animation-iteration-count: infinite;">
-<h1 style="font-style: italic; font-size: 100px;">Places I want to visit</h1>
+    <ul>
+        <li class="float"><a href="newthing.html">Home</a></li>
+        <li class="float"><a href="gfhjdjjhskjhflgkjshfdlg.html">Better than home</a></li>
+        <li class="float"><a href="orderedList.html">Ordered list</a></li>
+        <li class="float"><a href="unorderedList.html" class="active">Unordered List</a></li>
+    </ul>
+    <h1 style="font-style: italic; font-size: 100px;">Places I want to visit</h1>
 <br>
 <ul>
     <li>Japan</li>
